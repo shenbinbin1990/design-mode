@@ -1,7 +1,7 @@
 package com.szzj.design.observeMode.interfaceBo;
 
-import com.szzj.design.observeMode.bo.WeatherData;
+import com.szzj.design.observeMode.bo.WeatherDataBo;
 
 public interface Observer {
-    public void update(WeatherData weatherData);
+    public void update(WeatherDataBo weatherDataBo);
 }

@@ -2,14 +2,15 @@ package com.szzj.design.observeMode.bo;
 
 import com.szzj.design.observeMode.interfaceBo.Observer;
 import com.szzj.design.observeMode.interfaceBo.Subject;
+import lombok.Data;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Data
 public class WeatherSubject implements Subject {
     @Autowired
-    private WeatherData weatherData;
+    private WeatherDataBo weatherDataBo;
     List<Observer> observerList = new ArrayList<>();
     @Override
     public void register(Observer observer) {
@@ -26,7 +27,7 @@ public class WeatherSubject implements Subject {
     @Override
     public void notifyObservers() {
         observerList.stream().forEach(observer -> {
-            observer.update(weatherData);
+            observer.update(weatherDataBo);
         });
     }
 }
