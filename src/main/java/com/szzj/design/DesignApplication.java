@@ -9,9 +9,4 @@ public class DesignApplication {
     public static void main(String[] args) {
         SpringApplication.run(DesignApplication.class, args);
     }
-    //本地测试2
-    //本地测试3
-    //本地测试11
-    //本地测试12
-    //本地测试13
 }

@@ -19,12 +19,5 @@ public class ObserveModeTest {
         //再次发布
         weatherSubject.setWeatherDataBo(WeatherDataBo.builder().humidity(15).pressure(888).temperature(-5).build());
         weatherSubject.notifyObservers();
-    //测试 1
-        //远端测试1
-        //远端测试2
-        //远端测试3
-        //远端测试11
-        //远端测试12
-        //远端测试13
     }
 }
