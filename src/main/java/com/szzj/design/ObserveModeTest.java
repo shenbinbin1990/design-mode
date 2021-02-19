@@ -21,5 +21,6 @@ public class ObserveModeTest {
         weatherSubject.notifyObservers();
     //测试 1
         //远端测试1
+        //远端测试2
     }
 }
