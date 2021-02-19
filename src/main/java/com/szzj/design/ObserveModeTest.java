@@ -20,5 +20,8 @@ public class ObserveModeTest {
         weatherSubject.setWeatherDataBo(WeatherDataBo.builder().humidity(15).pressure(888).temperature(-5).build());
         weatherSubject.notifyObservers();
     //测试 1
+        //远端测试1
+        //远端测试2
+        //远端测试3
     }
 }
