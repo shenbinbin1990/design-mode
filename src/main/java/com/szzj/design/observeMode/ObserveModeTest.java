@@ -1,4 +1,4 @@
-package com.szzj.design;
+package com.szzj.design.observeMode;
 
 import com.szzj.design.observeMode.bo.*;
 
